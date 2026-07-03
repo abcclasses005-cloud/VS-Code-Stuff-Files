@@ -6,11 +6,378 @@
     <body align="center">
         <h1>ROCKET MISSION GALLERY</h1>
         <p>Welcome to the Rocket Mission Gallery!</p>
+        <fav icon href=""
         <img src="https://cdn.mos.cms.futurecdn.net/FaWKMJQnr2PFcYCmEyfiTm.jpg" alt="Earth" height="500px" width="900px"><BR>
             <P><u>The Image of the Blue Planet, Earth (Home of Humanity)</u></P>
         <img src="https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/R_img2.png.webp" alt="Chandrayaan 3" height="500px" width="900px"><BR>
             <P><U>The landing of Chandrayaan 3 on the Moon </U></P>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYylzkWJGHFHd7P7NKTgE1ZPIn5OMOb4C6_-LsyLkP-UpzlV9EQ-owS0&s=10" alt="Chandrayaan 3" height="500px" width="900px"><BR>
             <P><U>The actual image Voyager 1 made at JPL (NASA)</U></P>
+        <video controls loop>
+            <source src="https://www.pexels.com/download/video/37915625/" type="video/mp4">
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9IvAe7sXfQ0?si=mh_G-A-Tdaq_gthj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Non-semantic (no meaning) -->
+<div>
+  <div>My Website</div>
+  <div>Home | About | Contact</div>
+</div>
+
+<!-- Semantic (meaningful) -->
+<header>
+  <h1>My Website</h1>
+  <nav>Home | About | Contact</nav>
+  <div id="health">
+  <h2>Why Your Body Needs Exercise</h2>
+  <p>Your body is like a supercar...</p>
+  Outline
+In this lesson, you will discover how to write HTML that actually means something. You will learn the semantic elements that give every section of a webpage a clear purpose, and build a real Kids Health Guide page using header, nav, main, section, article, aside, figure, and footer.
+
+Overview
+
+List of Topics
+ 
+
+Semantic HTML
+Div Tag
+Header and Nav
+Main and Section
+Article and Aside
+Footer Element
+Figure and Figcaption
+Activity Explanation
+ 
+
+Topics in Detail
+
+1. Semantic HTML - Using tags that describe the meaning of content, not just its appearance
+
+What It Is
+
+Semantic HTML means using HTML tags that carry a clear meaning about the content they hold. Tags like header, article, and footer tell the browser and anyone reading the code exactly what kind of content is inside. Non-semantic tags like div and span say nothing about their content at all.
+
+
+
+Why It Is
+
+When code is meaningful, it becomes easier for everyone to understand. Other developers, search engines, and screen readers used by people with disabilities can all work with it. A page built with semantic HTML is easier to maintain, easier to find on Google, and accessible to a much wider audience.
+
+How It Works
+
+Students replace generic div tags with the correct semantic element for each section of the page. A header tag wraps the top of the page. A footer tag wraps the bottom. An article tag holds a self-contained piece of writing. The browser renders them all the same as a div visually, but the meaning they carry is completely different.
+
+<!-- Non-semantic (no meaning) -->
+<div>
+  <div>My Website</div>
+  <div>Home | About | Contact</div>
+</div>
+
+<!-- Semantic (meaningful) -->
+<header>
+  <h1>My Website</h1>
+  <nav>Home | About | Contact</nav>
+</header>
+
+
+ 
+
+🎯 ANALOGY: Imagine a school bag where every pocket is labelled: pencils, books, snacks. You can find anything instantly. Non-semantic HTML is like one giant unlabelled bag where everything is jumbled together. Semantic HTML is the labelled bag, organised, clear, and easy to use.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: Every major website, including Wikipedia, BBC, and YouTube, is built using semantic HTML. When you search for something on Google, search engines read the semantic tags to understand what each section is about. A page using proper semantic tags ranks higher in search results than one using only divs.
+
+ 
+
+🕵️WHY THIS MATTERS: Semantic HTML is the foundation of professional web development. Students who use it write code that is cleaner, more accessible, and better understood by both humans and machines. Every real job in web development expects developers to know and use semantic HTML from day one.
+
+ 
+
+2. Div Tag - The generic container with no built-in meaning
+
+What It Is
+
+The div tag is a generic container element in HTML. It groups other elements together but carries no meaning of its own. Div is short for division. It is a plain box that holds content and is almost always used alongside CSS or JavaScript to create layout and interactivity.
+
+
+
+Why It Is
+
+Before semantic HTML existed, developers used divs for everything, including headers, footers, sidebars, and articles. Divs are still useful today when no semantic tag fits the purpose, or when a container is needed purely for layout. Understanding the div is essential because it shows students exactly what semantic tags improve upon.
+
+How It Works
+
+Students wrap content inside opening and closing div tags. The div creates a block-level container that stretches the full width of its parent. A class or id attribute is added to the div so CSS can target it for styling. In the activity, divs are used as starting placeholders that students upgrade to semantic elements.
+
+<div id="health">
+  <h2>Why Your Body Needs Exercise</h2>
+  <p>Your body is like a supercar...</p>
+</div>
+
+
+ 
+
+🎯 ANALOGY: A div is like a plain cardboard box with no label. It holds things perfectly well, but nobody knows what is inside just by looking at it. Semantic tags are the same box with a clear label stuck on the front. The contents are identical, but the meaning is completely different.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: Open any webpage and inspect the source code and you will see hundreds of divs used for layout grids, card containers, and wrappers. Instagram uses divs to group photos in a grid. Google uses them to lay out search results. The div is the most widely used HTML element on the internet.
+
+ 
+
+🕵️WHY THIS MATTERS: Students who understand the div tag understand the difference between layout containers and meaningful content wrappers. This distinction is central to writing clean, professional HTML. Every web developer uses divs daily, and knowing when to use one versus a semantic tag is a sign of real skill.
+
+ 
+
+3. Header and Nav - Marking the top of the page and its navigation links
+
+What It Is
+
+The header element defines the top section of a webpage or of a specific content block. It typically contains the site name, logo, and navigation links. The nav element sits inside or near the header and holds a group of navigation links that help users move between sections or pages of a website.
+
+
+
+Why It Is
+
+Having a dedicated header and nav element tells browsers and screen readers exactly where the site identity and navigation are located. Screen reader software announces the nav element to users, allowing them to skip straight to the content they need. Without these tags, every user has to manually scan the entire page.
+
+How It Works
+
+Students wrap the top section of the page in header tags. Inside the header, they add a nav element containing anchor tags with href attributes pointing to sections using id references like href='#health'. Each link scrolls the browser down to the matching section when clicked, creating smooth in-page navigation.
+
+<header>
+  <h1>KidsCare - Your Health Guide</h1>
+  <nav>
+    <a href="#health">Stay Healthy</a>
+    <a href="#tips">Quick Tips</a>
+    <a href="#media">Watch and Learn</a>
+  </nav>
+</header>
+
+
+ 
+
+🎯 ANALOGY: Think of the header as the cover of a school textbook. It has the title and tells you what the book is about. The nav is the table of contents inside the cover. It lists all the chapters so you can jump straight to the one you need without flipping through every page.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: Every website students visit has a header with a nav. Wikipedia's logo and search bar are in the header. YouTube's top bar with Home, Explore, and Subscriptions is a nav element. BBC News uses a nav with links to News, Sport, and Weather at the top of every page.
+
+ 
+
+🕵️WHY THIS MATTERS: Header and nav are two of the most important semantic elements in web development. Students who use them correctly write pages that are fully accessible, easier to navigate, and properly structured for SEO. These two elements alone are enough to make a webpage feel like a real, professional product.
+
+ 
+
+4. Main and Section - Wrapping primary content and organising it into themed chunks
+
+What It Is
+
+The main element wraps the primary content of the page, which is the part that is unique to that page and not repeated across other pages. There should only be one main element per page. The section element groups related content together under a common theme, like a chapter in a book.
+
+
+
+Why It Is
+
+The main tag tells browsers and screen readers exactly where the important content begins. Assistive technology can skip the header and jump straight to main, saving users with disabilities enormous amounts of time. The section tag breaks long pages into clearly themed chunks, making content easier to read and understand.
+
+How It Works
+
+Students wrap all the core content of the page, including the article, aside, figure, and iframe, inside a single main element. Inside main, they wrap the health topic content in a section tag with an id of health. The section acts like a labelled chapter, grouping the article and figure that belong to the same topic.
+
+<main>
+  <section id="health">
+    <article>
+      <h2>Why Your Body Needs Exercise</h2>
+      <p>Your body is like a supercar...</p>
+    </article>
+    <figure>...</figure>
+  </section>
+  <aside id="tips">...</aside>
+</main>
+
+
+ 
+
+🎯 ANALOGY: Main is like the main stage at a school assembly. It is where the important performance happens, separate from the entrance hall and the exit. Section is like the different acts of the show. Each act has its own theme and is clearly separated from the ones before and after.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: Wikipedia uses a main element to wrap the article content, separated from the navigation sidebar. News websites like BBC wrap their lead stories in a main element so assistive technology and search engines can identify the most important content immediately. Every well-built webpage has exactly one main element.
+
+ 
+
+🕵️WHY THIS MATTERS: The main and section elements are what give a webpage proper document structure. Students who use them correctly produce pages that rank better in search engines, work properly with assistive technology, and are readable by other developers at a glance. These two tags transform a flat page into a structured document.
+
+ 
+
+5. Article and Aside - Separating self-contained content from supplementary information
+
+What It Is
+
+The article element holds a self-contained piece of content that could be lifted out of the page and still make complete sense on its own, like a news article, blog post, or health guide entry. The aside element holds content that is related to the main content but not essential to understanding it, like a sidebar or tips panel.
+
+
+
+Why It Is
+
+Article and aside help browsers and search engines understand the difference between the core message and the supporting information. Search engines give the content inside an article tag more weight. The aside tag signals supplementary content, so screen readers can present it separately from the main reading flow.
+
+How It Works
+
+Students wrap the main health content, including the heading and paragraphs about exercise, inside an article element. The quick tips list is placed inside an aside element. The two elements sit side by side in the layout, but their semantic roles are completely different. One is the main story, the other is the helpful extra.
+
+<article>
+  <h2>Why Your Body Needs Exercise</h2>
+  <p>Your body is like a supercar. The more
+  you use it, the stronger it gets!</p>
+</article>
+<aside id="tips">
+  <h3>Quick Health Tips</h3>
+  <ul>
+    <li>Eat 5 fruits and veggies every day</li>
+    <li>Drink 8 glasses of water daily</li>
+  </ul>
+</aside>
+
+
+ 
+
+🎯 ANALOGY: Article is like the main story in a newspaper, the big piece you came to read. Aside is like the small factbox in the corner, useful extra information that adds context without interrupting the main story. Both matter, but one is primary and the other is supplementary.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: BBC News wraps every news story in an article element. Wikipedia uses aside for the information box on the right side of articles, the one showing facts like population, country, and capital city. Every blog post on the internet is an article element, and every sidebar of related posts is an aside.
+
+ 
+
+🕵️WHY THIS MATTERS: Article and aside are the tags that separate primary content from supporting content across the entire web. Students who use them correctly write pages that communicate their structure to search engines, accessibility tools, and other developers. These two elements are used on virtually every content-driven website ever built.
+
+ 
+
+6. Footer Element - Closing the page with a properly labelled landmark
+
+What It Is
+
+The footer element defines the bottom section of a webpage or content block. It typically contains copyright information, contact details, links back to the top of the page, and terms or conditions. Like the header, it is a landmark element that assistive technology specifically recognises.
+
+
+
+Why It Is
+
+The footer tag tells the browser and screen readers that the main content has ended and that what follows is closing or supplementary information. Without it, a div at the bottom of the page looks identical to every other div. There is no way to know it is the footer without reading all the content inside.
+
+How It Works
+
+Students replace the closing div at the bottom of the page with footer tags. Inside the footer, a paragraph holds the copyright symbol written as the HTML entity code followed by the year and site name. A link inside the footer can point to a section or page to help users navigate from the bottom of the page.
+
+ 
+
+<footer>
+
+  <p>Copyright 2024 KidsCare
+
+  | Built by a future web developer</p>
+
+</footer>
+
+
+
+ 
+
+🎯 ANALOGY: The footer is like the last page of a book. It has the publisher's details, the copyright notice, and maybe a note about the author. You do not need it to enjoy the book, but it closes everything off properly and tells you the story is finished.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: Every website students visit has a footer. YouTube's footer has links to About, Press, and Terms. Wikipedia's footer has copyright information and links to policies. Google's homepage footer has links to Advertising, Business, and Privacy. The footer is one of the most consistent design elements on the entire web.
+
+ 
+
+🕵️WHY THIS MATTERS: The footer element completes the semantic structure of a webpage. Students who use it correctly produce fully accessible pages where every landmark, including header, main, and footer, is properly labelled for assistive technology and search engines. A page with a proper footer is a finished, professional webpage.
+
+ 
+
+7. Figure and Figcaption - Pairing images with accessible captions semantically
+
+What It Is
+
+The figure element wraps self-contained media content such as an image, diagram, or video that is referenced from the main content. The figcaption element sits inside the figure and provides a visible caption or description for the media. Together they link an image to its explanation in a semantic way.
+
+
+
+Why It Is
+
+Before the figure element existed, images were placed inside divs with no semantic connection to their captions. Screen readers could not tell that the caption text belonged to the image. The figure and figcaption pairing solves this. Screen readers announce the image and its caption together, making visual content accessible to everyone.
+
+How It Works
+
+Students wrap the img tag inside a figure element. Immediately after the img, they add a figcaption element with a short description of what the image shows. The browser does not add any default styling to figure. It is purely semantic. The caption text appears below the image in normal document flow.
+
+<figure>
+  <img
+    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800"
+    alt="Kids exercising"
+    width="700"
+  />
+  <figcaption>
+    Active kids are healthier and happier every day!
+  </figcaption>
+</figure>
+ 
+
+🎯 ANALOGY: Figure and figcaption are like a photograph in a textbook with a label underneath it. The photo is the figure, the visual content. The label beneath it is the figcaption, the explanation that tells you what you are looking at. Together they make complete sense. Separately they are just an image and some floating text.
+
+ 
+
+🌍 REAL-WORLD EXAMPLE: Wikipedia uses figure and figcaption for every image in its articles. The photo of a person or place is the figure, and the small grey text underneath describing it is the figcaption. News websites use them for every news photograph. Even Google Images reads figcaption text to understand what an image shows.
+
+ 
+
+🕵️WHY THIS MATTERS: Figure and figcaption make images a proper part of a webpage's content rather than decorative extras. Students who use them write pages where images are fully accessible, properly described, and semantically connected to the content around them. This is a professional standard followed by every major website on the internet.
+
+
+ 
+
+8. Activity Explanation: Kids Health Guide
+
+Objective
+ 
+
+In this activity, you will transform a plain HTML page into a fully structured semantic webpage. You will replace generic div containers with meaningful semantic tags, add navigation links, embed a real image with a caption, and complete the footer to build a real Kids Health Guide.
+
+What You Will Build
+
+A complete Kids Health Guide webpage with a labelled header and navigation bar, a main content area containing a health article and an image with caption, a quick tips sidebar, an embedded YouTube health video, and a footer with copyright information, all structured using proper semantic HTML elements.
+
+Files You Will Work With
+ 
+
+Kids_Health_Guide.html — The main HTML file with pre-written content inside generic div containers. Students upgrade each div to the correct semantic element step by step.
+Concepts Applied in This Activity
+ 
+
+header and nav — Wraps the page title and navigation links at the top of the page with meaningful semantic containers
+main and section — Groups the primary content of the page inside a main landmark and organises it into a themed section
+article and aside — Separates the self-contained health article from the supplementary quick tips sidebar
+figure and figcaption — Pairs the exercise image with its accessible caption using semantic media elements
+footer — Closes the page with a properly labelled footer containing the copyright notice
+What the Completed Health Guide Page Looks Like
+ 
+
+The finished page opens with a heading and three clickable navigation links. Below, the health article appears with two paragraphs of content followed by a real photograph with a caption underneath it. A tips list sits alongside the article. A YouTube health video plays directly on the page. At the very bottom, the copyright footer closes the page.
+
+ 
+
+🕵️WHY THIS MATTERS: This activity proves that students understand the difference between generic containers and meaningful HTML structure. Building this page means students can now write code that is accessible, SEO-friendly, and professionally structured, the exact same standard used by Wikipedia, BBC, YouTube, and every major website on the internet.
+</div><header>
+  <h1>KidsCare - Your Health Guide</h1>
+  <nav>
+    <a href="#health">Stay Healthy</a>
+    <a href="#tips">Quick Tips</a>
+    <a href="#media">Watch and Learn</a>
+  </nav>
+</header>
+</header>
+
     </body>        
 </html>
