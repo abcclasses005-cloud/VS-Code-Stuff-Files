@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    overflow:hidden;
+    background:#87ceeb;
+    font-family:Arial;
+}
+
+canvas{
+    display:block;
+}
+
+#hud{
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    color:white;
+
+    background:rgba(0,0,0,.45);
+
+    padding:15px;
+
+    border-radius:10px;
+
+    line-height:1.7em;
+
+    min-width:180px;
+}

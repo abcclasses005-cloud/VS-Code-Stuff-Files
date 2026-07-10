@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>P.D. HINDUJA HOSPITAL</title>
+    </head>
+    <body>
+        <h1>Book your Appointment</h1>
+        <p>Please fill out the form below to book your appointment.</p>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+            <br>
+            <label>Patient ID:</label>
+            <input type="text" placeholder="Enter your patient ID" required>
+            <br>
+            <label>Date of Birth</label> 
+            <input type="date" required>
+        </fieldset><br>
+        <fieldset>
+            <legend>Your Visit</legend>
+            <label>Choose your Doctor:</label>
+            <select id="Doktur">
+                <option value="">--Select a Doctor--</option>
+                <option value="Dr. Ray">Dr. Ray</option>
+                <option value="Dr. Thims">Dr. Thims</option>
+                <option value="Dr. Jhoson">Dr. Jhonson</option>
+            </select>
+            <br>
+            <label>Why are you visiting?</label>
+            <br>
+                <input type="radio" name="bobby" value="Fever">Fever</input><br>
+                <input type="radio" name="bobby" value="Cold">Cold</input><br>
+                <input type="radio" name="bobby" value="Checkup">Checkup</input><br>
+                <input type="radio" name="bobby" value="Tooth Pain">Tooth Pain</input><br>
+            <br>
+            <label>Any notes for the doctor:</label>
+            <br>
+            <textarea placeholder="e.g. I have been Coughing in Smoke" rows="4" cols="35"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferred Visit Days</legend>
+            <label>Choose your preffered visit day:</label>
+            <br>
+            <input type="checkbox" name="day" value="Munaday">Monday</input><br>
+            <input type="checkbox" name="day" value="Thoosday">Tuesday</input><br>
+            <input type="checkbox" name="day" value="Bhednesdhay">Wednesday</input><br>
+            <input type="checkbox" name="day" value="Thursday">Thursday</input><br>
+            <input type="checkbox" name="day" value="Fryday">Friday</input><br>
+            <input type="checkbox" name="day" value="Saturday">Saturday</input><br>
+            <input type="checkbox" name="day" value="Soonday">Sunday</input><br>
+            <br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Book My Appointment">
+    </form>
+    </body>
+</html>
